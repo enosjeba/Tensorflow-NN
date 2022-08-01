@@ -19,7 +19,7 @@ jobs:
         run: |
           # Your ML workflow goes here
           pip install -r requirements.txt
-          python 03_tensorflow_computer_vision_python.py
+          python 03_tensorflow_computer_vision.py
           
           echo "Model Metrics"
           cat metrics.txt
